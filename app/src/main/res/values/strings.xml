@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">The Story</string>
+
+    <string name="story_default">Story</string>
+    <string name="option1_default">Option 1</string>
+    <string name="option2_default">Option 2</string>
+    <string name="option3_default">Option 3</string>
+
+    <string name="again_btn">Начать заново</string>
+
+    <string name="story_source">Сюжет от ChatGPT</string>
+
+    <string name="story_0">Ты просыпаешься от будильника</string>
+    <string name="option_0_1">Встать и начать готовиться к выходу на работу</string> <!-- Ведёт к story_1 -->
+    <string name="option_0_2">Отложить будильник на 10 минут</string> <!-- Ведёт к story_2 -->
+    <string name="option_0_3">Выключить будильник и заснуть дальше</string> <!-- Ведёт к ending_0 -->
+
+    <string name="story_1">Ты встаёшь с кровати и чувствуешь лёгкую усталость. Что ты сделаешь?</string>
+    <string name="option_1_1">Принять душ, чтобы взбодриться</string> <!-- Ведёт к story_3 -->
+    <string name="option_1_2">Сразу пойти готовить завтрак</string> <!-- Ведёт к story_4 -->
+    <string name="option_1_3">Снова лечь на 10 минут</string> <!-- Ведёт к ending_3 -->
+
+    <string name="story_2">Ты откладываешь будильник на 10 минут. Через какое-то время он снова звонит. Что делать?</string>
+    <string name="option_2_1">Встать и начать собираться</string> <!-- Ведёт к story_1 -->
+    <string name="option_2_2">Отложить будильник ещё на 10 минут</string> <!-- Ведёт к ending_4 -->
+    <string name="option_2_3">Выключить будильник и снова заснуть</string> <!-- Ведёт к ending_0 -->
+
+    <string name="story_3">Ты принимаешь душ, чувствуешь себя свежее. Что дальше?</string>
+    <string name="option_3_1">Сделать себе кофе</string> <!-- Ведёт к story_4 -->
+    <string name="option_3_2">Быстро одеться и выйти из дома</string> <!-- Ведёт к story_5 -->
+    <string name="option_3_3">Посмотреть на часы и проверить расписание транспорта</string> <!-- Ведёт к story_5 -->
+
+    <string name="story_4">Ты готовишь завтрак, но вдруг замечаешь, что опаздываешь. Что ты решишь?</string>
+    <string name="option_4_1">Бросить завтрак и бежать на работу</string> <!-- Ведёт к story_5 -->
+    <string name="option_4_2">Доесть спокойно и опоздать</string> <!-- Ведёт к ending_2 -->
+    <string name="option_4_3">Позвонить на работу и сказать, что задерживаешься</string> <!-- Ведёт к story_5 -->
+
+    <string name="story_5">Ты добираешься до офиса. Тебя ждёт выбор: приступить к работе или взять чашку кофе.</string>
+    <string name="option_5_1">Сразу приступить к работе</string> <!-- Ведёт к story_6 -->
+    <string name="option_5_2">Взять кофе и немного расслабиться</string> <!-- Ведёт к story_7 -->
+    <string name="option_5_3">Зайти к коллегам и обсудить проект</string> <!-- Ведёт к story_8 -->
+
+    <string name="story_6">Ты погружаешься в работу, но начальник вызывает тебя на разговор. Что ты решишь?</string>
+    <string name="option_6_1">Сразу пойти к начальнику</string> <!-- Ведёт к story_9 -->
+    <string name="option_6_2">Сказать, что зайдёшь позже</string> <!-- Ведёт к ending_5 -->
+    <string name="option_6_3">Продолжить работать и игнорировать вызов</string> <!-- Ведёт к ending_6 -->
+
+    <string name="story_7">Ты наслаждаешься кофе, но замечаешь, что коллеги обсуждают важное задание. Что делать?</string>
+    <string name="option_7_1">Присоединиться к обсуждению</string> <!-- Ведёт к story_9 -->
+    <string name="option_7_2">Игнорировать и выпить кофе</string> <!-- Ведёт к ending_7 -->
+    <string name="option_7_3">Попросить коллегу помочь с твоей задачей</string> <!-- Ведёт к story_10 -->
+
+    <string name="story_8">Ты заходишь к коллегам и узнаешь, что у вас будет важный проект. Что делать?</string>
+    <string name="option_8_1">Согласиться взять на себя лидерство в проекте</string> <!-- Ведёт к story_11 -->
+    <string name="option_8_2">Предложить коллегам свою помощь в выполнении задач</string> <!-- Ведёт к ending_8 -->
+    <string name="option_8_3">Отказаться от проекта, сказав, что у тебя слишком много работы</string> <!-- Ведёт к ending_9 -->
+
+    <string name="story_9">Начальник поручает тебе сложный проект с дедлайном до конца дня. Как ты поступишь?</string>
+    <string name="option_9_1">Сосредоточиться и начать работать</string> <!-- Ведёт к story_12 -->
+    <string name="option_9_2">Попробовать найти коллегу, чтобы разделить задачу</string> <!-- Ведёт к ending_10 -->
+    <string name="option_9_3">Сказать, что не справишься</string> <!-- Ведёт к ending_11 -->
+
+    <string name="story_10">Ты просишь коллегу помочь с задачей. Он соглашается, но просит взамен одолжить что-то. Что ты выберешь?</string>
+    <string name="option_10_1">Одолжить нужную вещь коллегам</string> <!-- Ведёт к story_12 -->
+    <string name="option_10_2">Отказаться и попробовать выполнить задачу самостоятельно</string> <!-- Ведёт к ending_12 -->
+    <string name="option_10_3">Предложить коллегам другое условие для помощи</string> <!-- Ведёт к ending_13 -->
+
+    <string name="story_11">Ты берёшь на себя лидерство в проекте. Что будет следующим шагом?</string>
+    <string name="option_11_1">Собрать команду и распределить задачи</string> <!-- Ведёт к ending_14 -->
+    <string name="option_11_2">Провести мозговой штурм для идей</string> <!-- Ведёт к ending_15 -->
+    <string name="option_11_3">Сказать команде, что работа пойдёт по плану, но без конкретных указаний</string> <!-- Ведёт к ending_16 -->
+
+    <string name="ending_0">Ты проспал весь день, и тебя уволили.</string>
+    <string name="ending_1">Ты добрался до работы вовремя и всё прошло хорошо.</string>
+    <string name="ending_2">Ты опоздал на работу, но тебе сделали замечание.</string>
+    <string name="ending_3">Ты снова заснул и пропустил весь день.</string>
+    <string name="ending_4">Ты уволен за постоянные опоздания.</string>
+    <string name="ending_5">Начальник разочарован твоей безответственностью.</string>
+    <string name="ending_6">Ты не сделал работу и получил выговор.</string>
+    <string name="ending_7">Ты пропустил важное обсуждение и получил выговор.</string>
+    <string name="ending_8">Ты не справился с проектом, и тебе сделали выговор.</string>
+    <string name="ending_9">Ты не принял участие в проекте, и команда справилась без тебя.</string>
+    <string name="ending_10">Ты разделил задачу с коллегой, и проект был завершён вовремя.</string>
+    <string name="ending_11">Ты не справился с проектом и был снят с задачи.</string>
+    <string name="ending_12">Ты отказался от помощи и не смог завершить проект.</string>
+    <string name="ending_13">Ты не помог коллегам и остался без поддержки на следующем этапе.</string>
+    <string name="ending_14">Проект был завершён успешно, и тебе предложили повышение.</string>
+    <string name="ending_15">Твои идеи были отклонены, но проект был выполнен.</string>
+    <string name="ending_16">Проект не был выполнен вовремя, и тебе сделали выговор.</string>
+
+</resources>
